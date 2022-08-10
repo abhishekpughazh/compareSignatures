@@ -18,6 +18,8 @@ The implementation involves utilizing the [**SSIM (Structural Similarity) functi
 **Function 1 - Convert PDFs to JPGs**<br>
 Uses a pre-defined function `convert_from_path` imported from `pdf2image`.  
 
+!("F:/Downloads/extsig.jpg")
+
 **Function 2 - Extracts Signatures From Documents**<br>
 Uses OpenCV. To be more exact, the `cv2.findContours( )` identifies the contours of the signatures and uses it as a mask to then crop the mask out of its background. 
 
