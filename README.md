@@ -12,7 +12,7 @@ The implementation involves utilizing the [**SSIM (Structural Similarity) functi
 2.  `def sigExtract(inputPath, outputPath):`
 
 3.  `def match(path1, path2, countour = False):`
-4.  
+   
 <br>
 
 **Function 1 - Convert PDFs to JPGs**<br>
